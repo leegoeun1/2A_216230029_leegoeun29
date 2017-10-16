@@ -16,8 +16,7 @@
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="계산기 어플" />
+            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/button3"
@@ -31,14 +30,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="nextScene2"
-            android:text="계산기 시작" />
+            android:text="나이 계산기 시작" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="nextScene3"
-            android:text="위젯 프래그먼트" />
+            android:text="프래그먼트" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

@@ -13,21 +13,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    //    메인 2 액티비티(개발자 정보)로 넘어가는 메소드
+    //   액티비티(개발자 정보)로 넘어가는 메소드
     public void nextScene1(View view) {
-        Intent i = new Intent(this, Main2Activity.class);
+        Intent i = new Intent(this, Developer.class);
         startActivity(i);
     }
 
     //    메인 3 액티비티(본 내용)로 넘어가는 메소드
     public void nextScene2(View view) {
-        Intent i = new Intent(this, Main3Activity.class);
+        Intent i = new Intent(this, Calc.class);
         startActivity(i);
     }
 
     //    메인 4 액티비티(위젯 프래그먼트)로 넘어가는 메소드
     public void nextScene3(View view) {
-        Intent i = new Intent(this, Main4Activity.class);
+        Intent i = new Intent(this, FragmentExampleActivity.class);
         startActivity(i);
     }
 }

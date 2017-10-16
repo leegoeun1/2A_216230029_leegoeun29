@@ -1,6 +1,5 @@
 package com.example.hywoman.a2a_216230029_leegoeun;
 
-import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,7 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class Main3Activity extends AppCompatActivity {
+public class Calc extends AppCompatActivity {
     int year = 2017;
     EditText birthyear;
     Button result;
@@ -17,9 +16,9 @@ public class Main3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.activity_calc);
         setTitle("나이 계산기");
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.activity_calc);
         agecal();
 
     }
